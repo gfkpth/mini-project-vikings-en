@@ -18,6 +18,7 @@ class Soldier:
         else:
             self.health = 0
 
+
         
     
 
@@ -29,7 +30,7 @@ class Viking(Soldier):
         self.name = name
 
     def battleCry(self):
-        return 'Odin Owns You All!!'
+        return 'Odin Owns You All!'
 
     def receiveDamage(self, damage):
         if self.health>damage:
