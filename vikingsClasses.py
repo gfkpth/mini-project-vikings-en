@@ -14,7 +14,7 @@ class Soldier:
     def receiveDamage(self, damage):
         self.damage = damage
         self.health -= damage
-    return f"There is no damage to the soldier"
+        return f"There is no damage to the soldier"
     
 
 # Viking
