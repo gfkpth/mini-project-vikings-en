@@ -49,11 +49,13 @@ csquotes: true
 
 ## Dealing with death
 
-- test suite expects health values below < 0 <!-- --> in `receiveDamage(damage)` methods  
+
 
 ::: {.block}
 
 ### Failing 4-testsWar.py
+
+- test suite expects health values below < 0 <!-- --> in `receiveDamage(damage)`
 
 ```
 self.assertEqual(self.saxon.health, 
