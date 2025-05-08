@@ -21,7 +21,9 @@ numbersections: true
 csquotes: true
 ---
 
+## Overview
 
+\tableofcontents
 
 # vikingClasses.py
 
@@ -36,7 +38,7 @@ csquotes: true
   - modified `receiveDamage(damage)` to print damage received and possible death
 - class `War()`
   - `addViking(Viking)` and `addSaxon(Saxon)` to fill up lists
-  - `[viking|saxon]Attack` to simulate effects of attack actions
+  - `[viking|saxon]Attack()` to simulate effects of attack actions
   - `showStatus()` to test whether any army has been depleted
 
 
