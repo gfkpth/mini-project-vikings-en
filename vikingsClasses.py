@@ -9,12 +9,16 @@ class Soldier:
         self.strength = strength
 
     def attack(self):
-        return f"{self.strength} of the soldier's strength"
+        return self.strength 
 
     def receiveDamage(self, damage):
-        self.damage = damage
-        self.health -= damage
-        return f"There is no damage to the soldier"
+        if self.health > damage:
+            self.health -= damage
+        
+        else:
+            self.health = 0
+
+        
     
 
 # Viking
