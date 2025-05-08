@@ -1,7 +1,5 @@
 import random
 
-# this is a test message
-# this is a new message   
 # Soldier
 
 
@@ -42,30 +40,38 @@ class Viking(Soldier):
 class Saxon(Soldier):
     def __init__(self, health, strength):
         # your code here
+        pass
+        
 
     def receiveDamage(self, damage):
         # your code here
+        pass
 
 # Davicente
 
 class War():
     def __init__(self):
         # your code here
+        pass
 
     def addViking(self, viking):
         # your code here
+        pass
     
     def addSaxon(self, saxon):
         # your code here
+        pass
     
     def vikingAttack(self):
         # your code here
+        pass
     
     def saxonAttack(self):
         # your code here
+        pass
 
     def showStatus(self):
         # your code here
-    pass
+        pass
 
 
