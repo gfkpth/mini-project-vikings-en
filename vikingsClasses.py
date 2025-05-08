@@ -1,5 +1,6 @@
 import random
 
+# this is a test message
 # Soldier
 
 
