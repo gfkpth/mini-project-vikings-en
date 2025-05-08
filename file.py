@@ -32,12 +32,12 @@ groups = ['Saxon','Viking']
 # Functions
 
 def raise_army(num,group,war):
-    """ Raises an army of type {group} with {num} members for {war}
+    """ Raises an army of type {group} with {num} members in {war}
     
     num: number of members of army to be raised
     group: the group the army belongs to
-        - 'saxon' for Saxon
-        - 'viking' for Viking
+        - 'Saxon' for Saxon
+        - 'Viking' for Viking
     war: a War object
     """
     
@@ -79,7 +79,7 @@ for g in groups:
     raise_army(valuedict[g]['num'],g,w1)
 
 
-# double chekcing functionality
+# double checking functionality for debugging
 # print(len(w1.vikingArmy))
 # print(len(w1.saxonArmy))
 
