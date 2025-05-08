@@ -1,17 +1,22 @@
 import random
 
+# this is a test message
+# this is a new message   
 # Soldier
 
 
 class Soldier:
     def __init__(self, health, strength):
-        # your code here
-    
+        self.health = health
+        self.strength = strength
+
     def attack(self):
-        # your code here
+        return f"{self.strength} of the soldier's strength"
 
     def receiveDamage(self, damage):
-        # your code here
+        self.damage = damage
+        self.health -= damage
+    return f"There is no damage to the soldier"
     
 
 # Viking
@@ -37,37 +42,30 @@ class Viking(Soldier):
 class Saxon(Soldier):
     def __init__(self, health, strength):
         # your code here
-        pass
 
     def receiveDamage(self, damage):
         # your code here
-        pass
 
 # Davicente
 
 class War():
     def __init__(self):
-        self.vikingArmy = []
-        self.saxonArmy = []
+        # your code here
 
     def addViking(self, viking):
         # your code here
-        pass
     
     def addSaxon(self, saxon):
         # your code here
-        pass
     
     def vikingAttack(self):
         # your code here
-        pass
     
     def saxonAttack(self):
         # your code here
-        pass
 
     def showStatus(self):
         # your code here
-        pass
+    pass
 
 
