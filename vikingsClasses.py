@@ -1,7 +1,5 @@
 import random
 
-# this is a test message
-# this is a new message   
 # Soldier
 
 
@@ -20,13 +18,19 @@ class Soldier:
 
 class Viking(Soldier):
     def __init__(self, name, health, strength):
-        # your code here
+        super().__init__(health,strength)
+        self.name = name
 
     def battleCry(self):
-        # your code here
+        return 'Odin Owns You All!!'
 
     def receiveDamage(self, damage):
-        # your code here
+        if self.health>damage:
+            self.health -= damage
+            return f'{self.name} has received {damage} points of damage'
+        else:
+            self.health = 0
+            return f'{self.name} has died in act of combat'
 
 # Saxon
 
