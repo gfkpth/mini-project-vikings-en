@@ -76,7 +76,7 @@ AssertionError: 0 != -90
 
 ### Project requirements
 
-- battle cry is purely symbolic (simple shout)
+- `Viking.battleCry()` is purely symbolic (simple shout)
 - no effective impact on battle
 - not used by default
 
@@ -182,7 +182,8 @@ Raises an army of type {`group`} with {`num`} members in {`war`}
   
 ## Difficulties, lessons learned?
 
-- use the tests and grow beyond them
+- use and understand the tests (e.g. below 0 health issue in test 4)
+  - if appropriate grow beyond them
 
 
 ## 
