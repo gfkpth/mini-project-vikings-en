@@ -22,12 +22,6 @@ valuedict = {
 }
 
 groups = ['Saxon','Viking']
-# saxon_healthrange = (80,150)
-# vikings_healthrange = (140,220)
-
-# saxon_strength = (5,10)
-# viking_strength = (8,10)
-
 
 # Functions
 
@@ -73,7 +67,9 @@ w1 = vik.War()
 # Setting up armies
 for g in groups:
     while not isinstance(valuedict[g]['num'], int):
-        valuedict[g]['num'] = int(input(f'Please enter the desired size of the {g} army: '))
+        choice = input(f'Please enter the desired size of the {g} army: ')
+        if choice.isdigit():
+            valuedict[g]['num'] = int(choice)
 
     print(f'Raising {g} army')
     raise_army(valuedict[g]['num'],g,w1)
