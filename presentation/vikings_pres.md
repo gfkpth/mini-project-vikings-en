@@ -180,10 +180,12 @@ Raises an army of type {`group`} with {`num`} members in {`war`}
   - introduce meta-iterations of game loops to generate larger datasets of the effects of property settings
   - reduce outputs
   
-## Difficulties, lessons learned?
+## Lessons learned
 
 - use and understand the tests (e.g. below 0 health issue in test 4)
   - if appropriate grow beyond them
+- LiveShare (thanks \@Desi)
+- shared project management (push, pull) on GitHub
 
 
 ## 
