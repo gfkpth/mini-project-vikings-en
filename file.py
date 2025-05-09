@@ -90,7 +90,6 @@ while w1.showStatus() == 'Vikings and Saxons are still in the thick of battle.':
     if randrange(10) < 6:
         print(w1.saxonAttack())
     else:
-
         print(w1.vikingAttack())
     
 # Final result
